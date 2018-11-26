@@ -1,0 +1,55 @@
+body{
+    background-color:black;
+}
+.first-name{
+    height: 300px;
+    background-color: white;
+
+}
+
+.last-name{
+    height: 300px;
+    background-color: white;
+
+}
+@media (min-width: 1200px){
+    .first-name{
+        width: 49%;
+        float: left;
+        position: absolute;
+        top: 20px;
+        font-size: 20px;
+    }
+    .last-name{
+        width: 49%;
+        float: right;
+        position: absolute;
+        top:20px;
+        left:51%;
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199px){
+    .first-name{
+        width:100%;
+        font-size: 16px;
+    }
+    .last-name{
+        width:100%;
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 350px) and (max-width: 767px){
+    .first-name{
+        width:100%;
+        font-size: 16px;
+        background-color: blue;
+    }
+    .last-name{
+        width:100%;
+        font-size: 16px;
+        background-color: yellow;
+    }
+}
